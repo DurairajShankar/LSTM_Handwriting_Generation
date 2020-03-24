@@ -1,5 +1,10 @@
 # LSTM_Handwriting_Generation
-A UI based Handwriting Generation System with improved accuracy
+
+A recurrent neural network architecture with Long Short Term Memory to generate handwriting sequences. Based off Grzego's work which is an implementation of Alex Graves' great paper on this [Paper].
+
+Lot of parameter changes were made and certain features were cut because I didn't need them. Overall, performance of the model was sub-par. It fares well on relatively long sequences and is messed up if you feed it special characters.
+
+For the curious, you can try it out as a local web app.
 
 #Steps To reproduce in Local Server:
 
