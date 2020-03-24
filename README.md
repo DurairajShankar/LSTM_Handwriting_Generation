@@ -17,5 +17,5 @@ For the curious, you can try it out as a local web app.
 
 1. Use anaconda_Navigator and Sypder (Suggestion)
 2. Create a new Environment in anaconda and Install the dependencies
-3. Run main.py in spyder
-4. Now the server serving on the localhost:5000
+3. Run $ python main.py in spyder or terminal
+4. Now The web app should now be accessible at http://localhost:5000/
