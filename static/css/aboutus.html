@@ -1,0 +1,118 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="about.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link href="meetteam.css" rel="stylesheet" type="text/css" media="all" />
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="#">COMPUTER JII</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="/" accesskey="1" title="">HOME</a></li>
+				{%if user_name!=None%}
+				<li><a href="/dashboard_page" accesskey="3" title="">DASHBOARD</a></li>
+				<li><a href="/logout" accesskey="4" title="">Logout</a></li>
+				{%else%}
+				<li><a href="/login_page?error=false" accesskey="3" title="">LOGIN</a></li>
+				<li><a href="/register_page?error=false" accesskey="2" title="">REGISTER</a></li>
+				{%endif%}
+				<li class="active"><a href="/aboutus" accesskey="4" title=""> ABOUT US</a></li>
+			</ul>
+		</div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1 class="w3-wide w3-center"  style="font-weight: bolder;color:white">Design is not just what it looks like and feels like.</h1>
+  <h1 class="w3-wide w3-center"  style="font-weight: bolder;color:white">Design is how it works.</h1>
+  <h4 class="w3-wide w3-center"  style="font-weight: bolder;color:white"">-Steve Jobs</h4>
+</div>
+ 
+<!--services-->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+  <h1 class="w3-wide" style="font-weight: bolder">Our Product</h1>
+  <i class='fas fa-globe' style='font-size:36px'></i>
+    <h4 style="font-weight: bolder">Services</h4>
+  <h4 class="w3-justify" style="font-size:150%">We developed a product to measure heart rates at a real time and predict how heart functions ( ie. Our Heart beats per min) and Our product will inform you and Your Relatives (ie.A number of persons phone number that You entered while you registering on our site will receive a phone call automatically) If Your Heart involves into any “malfunctions”.</h4>
+    <i class='fas fa-cogs' style='font-size:56px'></i>
+    <h2>How our product works:</h2>
+    <h4 class="w3-justify">•First, The User will be given our product (A Smart Watch with inbuilt Heart Rate Sensor) and User should register their details in our website.
+        -   The details include User name, phone number, Emergency      numbers,.etc- Emergency Numbers in the sense, User’s  trusted people’s  phone numbers, User’s heart rate details as per Doctor’s report.
+    </h4>
+    
+    <h4 class="w3-justify">•	Then,  Product  will measure User’s Heart Rate and send it to our website and our website will store the user data into a database.</h4>
+    <h4 class="w3-justify">•	 At our site, We predict User’s  activites (User’s Heart Rate for 24hrs)</h4>
+    <h4 class="w3-justify">•	If your Heart Rate fluctuates(Heart beats more or less than the threshold value )then The User is in danger and “A alert call and message will be send to the emergency numbers that you registered in our website”</h4>
+    <h4 class="w3-justify">•	It’s high chance that Trusted people will rescue user from any of these dangers. </h4>
+    <h4 class="w3-justify">•	Later, User could come to know what their activities through our website </h4>
+    <br>
+    <br>
+    <i class='fas fa-user-cog' style='font-size:56px'></i>
+    <br>
+    <h2>User Interface</h2>
+    <br>
+    <h4 class="w3-justify">We created a website with lot of benefits for User.</h4>
+       <h4 class="w3-justify">•	We added more contents about heart attacks and thereby User can learn what kind of diseases they suffer from.</h4> 
+       <h4 class="w3-justify">•	For User convenience, We added a Heart Rate analysis in a graphical format.</h4> 
+        <h4  class="w3-justify">•	UI  was developed in a interactive way.</h4>  
+        
+    </h4>        
+  </div>
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+    
+  <h2 class="w3-wide" >OUR TEAM</h2>
+  <p></p>
+  
+  <div class="w3-row"><br>
+  
+  <div class="w3-third">
+    <img src="laxman.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Laxman Vijay</h3>
+    <p>Web Developer</p>
+    <i class='fas fa-envelope' style='font-size:36px'></i>
+    <p>laxmanvijay24@gmail.com</p>
+  </div>
+  
+  <div class="w3-third">
+    <img src="durai.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Durai Raj</h3>
+    <p>Web Developer</p>
+    <i class='fas fa-envelope' style='font-size:36px'></i>
+    <p>Your Email Id</p>
+  </div>
+  
+  <div class="w3-third">
+    <img src="sandy.jpeg" alt="Boss" style="width:45%;height:45%" class="w3-circle w3-hover-opacity">
+    <h3>Santhosh</h3>
+    <p>Web  Developer</p>
+    <i class='fas fa-envelope' style='font-size:36px'></i>
+    <p>santhosh99mano@gmail.com</p>
+    <p></p>
+    </div>
+  </div>
+  
+  </div>
+  </div>
+  
+</body>
+</html>
